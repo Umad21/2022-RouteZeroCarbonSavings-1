@@ -13,6 +13,9 @@ import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.Scanner;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+
 public class Helper {
 
     private static final ObjectMapper mapper = new ObjectMapper();

@@ -7,6 +7,9 @@ import java.io.*;
 import java.util.Arrays;
 import java.util.List;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+
 @Service
 public class FileUploadService {
     private final static Helper.Properties props = Helper.loadProperties();

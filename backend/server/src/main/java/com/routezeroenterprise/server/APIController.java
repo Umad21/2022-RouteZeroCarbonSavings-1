@@ -13,7 +13,10 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
-@RestController
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+
+@Controller
 public class APIController {
 
     private final static String template = "Hello, %s";
